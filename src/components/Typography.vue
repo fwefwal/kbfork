@@ -19,7 +19,12 @@ defineProps<{
 
 <style scoped>
 h1 {
-    font-weight: 900;
+      font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  font-variation-settings:
+  "wdth" 100;
     font-size: 44px;
     line-height: 60px;
     color: rgb(33, 36, 61);

@@ -9,7 +9,7 @@ const router = useRouter()
 <template>
     <div>
         <Typography type="h1" content="Home page" />
-        <Typography type="p">
+        <Typography type="p" class="ty">
             Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim
             velit mollit. Exercitation veniam consequat sunt nostrud amet.
         </Typography>
@@ -19,6 +19,7 @@ const router = useRouter()
 </template>
 
 <style scoped>
+
 div {
     max-width: 500px;
     display: flex;
@@ -34,10 +35,24 @@ button {
     background-color: rgb(255, 100, 100);
     color: white;
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 400;
+      font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+  "wdth" 100;
     padding: 7px 43px;
     border: 0;
     cursor: pointer;
     width: 208px;
+}
+
+.ty {
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+  "wdth" 100;
 }
 </style>
